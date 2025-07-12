@@ -1,0 +1,97 @@
+Day 3 – Simulate and Capture Network Traffic (Redynox Internship)
+
+----------------------------------------------------
+🛠️ Tools Used:
+- Terminal (ping command)
+- Firefox (to visit test site)
+- Wireshark (for packet capture)
+- gnome-screenshot (to capture filtered traffic)
+
+----------------------------------------------------
+✅ 1. ICMP Traffic (ping)
+
+Command used:
+
+    ping -c 5 google.com
+    OR
+    ping -c 5 8.8.8.8
+
+Explanation:
+- Generates ICMP packets (Internet Control Message Protocol).
+- Useful to check if the system can reach another device online.
+- These packets were visible in Wireshark when the correct interface (eth0 or enp0s3) was selected and capture was started before the ping.
+
+Filter used in Wireshark:
+
+    icmp
+
+Screenshot saved as:
+
+    task1_icmp.png
+
+----------------------------------------------------
+✅ 2. DNS & HTTP Traffic
+
+Steps:
+- Opened Firefox.
+- Visited test site: http://testphp.vulnweb.com/
+- This generated both:
+  - DNS requests (to resolve the domain name)
+  - HTTP requests (GET, response headers, etc.)
+
+Wireshark Filters used:
+
+    dns
+    http
+
+Screenshots saved as:
+
+    task1_dns.png
+    task1_http.png
+
+----------------------------------------------------
+✅ 3. Proxy Issue Solved
+
+Issue:
+- Firefox showed "The proxy server is refusing connections"
+
+Fix:
+- In Firefox, went to about:preferences → Network Settings → changed to "No proxy" → saved and restarted browser
+
+----------------------------------------------------
+✅ 4. ICMP Not Showing – Fixed
+
+Initial Problem:
+- ICMP not visible in Wireshark
+
+Troubleshooting:
+- Verified internet by running `ping 8.8.8.8`
+- Restarted Wireshark and captured on correct interface (`eth0`)
+- Made sure capture started **before** running `ping`
+- Applied correct filter: `icmp`
+
+Resolved: ICMP packets successfully captured and screenshot taken.
+
+----------------------------------------------------
+🗂️ Screenshots Location
+
+Moved screenshots to:
+
+    ~/Redynox_CyberSecurity_Internship/Task1_NetworkSecurity/screenshots/
+
+Files present:
+
+    task1_icmp.png
+    task1_dns.png
+    task1_http.png
+
+----------------------------------------------------
+📋 Summary
+
+- Simulated 3 types of traffic (ICMP, DNS, HTTP)
+- Captured them using Wireshark
+- Filtered and analyzed using correct filters
+- Saved screenshots for final report
+- Solved common beginner issues (proxy error, interface selection)
+
+End of Day 3 Report

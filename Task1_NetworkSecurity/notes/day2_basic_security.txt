@@ -1,0 +1,31 @@
+Day 2 – Basic Security Concepts (Redynox Internship)
+
+1. FIREWALL
+----------------
+- A firewall is a network security tool that monitors and controls incoming and outgoing traffic.
+- Acts like a gatekeeper that blocks unwanted connections.
+- Types:
+  * Software firewall (on a computer)
+  * Hardware firewall (network-level)
+- Example: Block FTP (port 21) to prevent hackers exploiting old services.
+
+2. ENCRYPTION (WPA2/WPA3)
+--------------------------
+- Encryption scrambles data into unreadable form to protect it from hackers.
+- WPA2:
+  * Uses AES encryption
+  * Most commonly used for Wi-Fi
+- WPA3:
+  * More secure and modern than WPA2
+  * Protects better in public Wi-Fi
+- Example: WPA2 on your home Wi-Fi ensures hackers can’t sniff your internet traffic.
+
+3. SECURE NETWORK CONFIGURATION
+-------------------------------
+- Steps to secure your router/network/system:
+  * Change default passwords
+  * Disable unused services (like FTP)
+  * Apply updates and patches
+  * Use strong passwords
+  * Turn off insecure features like WPS
+- Example: Changing the router’s default password from 'admin' to a complex one helps block unauthorized access.

@@ -1,0 +1,113 @@
+Day 1 – Network Threats (Redynox Internship)
+
+Welcome to Task 1 of my Cyber Security Internship with Redynox. On Day 1, I explored common types of **network threats**. Below are detailed explanations in beginner-friendly language with real-world examples.
+
+---
+
+1. 🦠 Virus
+
+🔹 What is it?
+A virus is a malicious program that attaches itself to a legitimate file or software. It needs the user to run the infected file to activate and spread.
+🔹 Real-World Example:
+You download a game from an unknown source. The game runs, but behind the scenes, a virus infects your system and starts corrupting files.
+
+🔹 Key Points:
+- Needs user action to spread
+- Attaches to `.exe` or `.doc` files
+- Can damage data or slow down system
+
+---
+
+2. 🪱 Worm
+
+🔹 What is it?
+A worm is a self-replicating malware that spreads across systems and networks without any human action or host file.
+
+🔹 Real-World Example:
+A worm like “ILOVEYOU” spread via email. Just opening the email allowed it to replicate to all your contacts and affect their machines.
+
+🔹 Key Points:
+- Spreads automatically through the network
+- Doesn’t need a host file
+- Can slow down or crash entire networks
+
+---
+
+3. 🐴 Trojan Horse
+
+🔹 What is it?
+A Trojan is malware that pretends to be useful or harmless software but actually performs harmful actions like stealing data or opening a backdoor.
+
+🔹 Real-World Example:
+You install a fake antivirus that looks real but disables your protection and lets hackers control your computer.
+
+🔹 Key Points:
+- Disguised as legit software
+- Doesn’t self-replicate
+- Often used for spying or remote access
+
+---
+
+4. 🎣 Phishing
+
+🔹 What is it?
+Phishing is a cyber attack where the attacker sends fake emails or websites that appear genuine to trick users into revealing personal info.
+
+🔹 Real-World Example:
+You get an email pretending to be from your bank saying "urgent action required" with a fake login page.
+
+🔹 Key Points:
+- Involves fake emails or sites
+- Tries to steal usernames, passwords, credit card info
+- Creates a sense of urgency or fear
+
+---
+
+5. 🌐 DoS & DDoS Attacks
+
+🔹 What is it?
+DoS (Denial-of-Service)** and **DDoS (Distributed DoS)** attacks flood a server or website with huge amounts of traffic to crash it or slow it down.
+
+🔹 Real-World Example:
+Hackers flood a shopping website with millions of fake requests during a sale, preventing real customers from using it.
+
+🔹 Key Points:
+- DoS = from one source, DDoS = from multiple
+- Disrupts services, no data is stolen
+- Often used for extortion or protest
+
+---
+
+6. 🕵️‍♂️ Man-in-the-Middle (MITM) Attack
+
+🔹 What is it?
+An attacker secretly sits between two communicating systems (like a user and a server), intercepting and possibly altering data in real-time.
+
+🔹 Real-World Example:
+On public Wi-Fi, an attacker captures your login details as you access your email without encryption (no HTTPS).
+
+🔹 Key Points:
+- Intercepts communication between two devices
+- Can read or modify data without you knowing
+- Happens often on insecure networks
+
+---
+
+7. 📦 Packet Sniffing
+
+🔹 What is it?
+Packet sniffing is the act of capturing data packets that travel over a network to analyze their contents.
+
+🔹 Real-World Example:
+A hacker on a café Wi-Fi uses Wireshark to see what websites people are visiting and what data they’re sending (if not encrypted).
+
+🔹 Key Points:
+- Can reveal passwords, IPs, and URLs
+- Used for both good (network analysis) and bad (stealing data)
+- Requires tools like Wireshark
+
+---
+
+**Summary**
+Understanding these threats is the first step in becoming a cybersecurity professional. Each type of threat has a different behavior and purpose, and recognizing them helps you prevent and defend against attacks.
+

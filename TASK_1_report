@@ -1,0 +1,122 @@
+Redynox Cyber Security Internship – Task 1 Report
+==================================================
+
+Task Name: Introduction to Network Security Basics
+Task Duration: 5 Days
+Student Level: Beginner (No Windows, Kali Linux only)
+
+--------------------------------------------------
+🎯 Objective (What was the goal?)
+--------------------------------------------------
+The main goal of this task was to understand the basics of network security. This included:
+- Learning common network threats (like phishing, DoS, etc.)
+- Understanding how firewalls and encryption protect networks
+- Creating network traffic (ICMP, DNS, HTTP)
+- Capturing and analyzing this traffic using Wireshark
+- Practicing good network security configurations
+
+This task gave me the knowledge and hands-on skills needed to move forward in cybersecurity.
+
+--------------------------------------------------
+🛠️ Tools and Why They Were Used
+--------------------------------------------------
+1. **Kali Linux (in VirtualBox)** – Operating System for ethical hacking
+2. **Terminal** – To run commands like ping, ufw, and move files
+3. **UFW** – A firewall tool to allow/deny ports
+4. **Firefox** – Used to generate DNS and HTTP traffic
+5. **Wireshark** – Captures and shows network packets
+6. **nano** – To create and edit notes and reports
+7. **gnome-screenshot** – To take screenshots for evidence
+
+--------------------------------------------------
+📋 Steps Taken (What I Did Each Day)
+--------------------------------------------------
+
+🔸 Day 1 – Network Threats:
+- Learned about Virus, Worm, Trojan, Phishing, DDoS, MITM, and Packet Sniffing.
+- Wrote detailed notes in Markdown and `.txt`.
+
+🔸 Day 2 – Basic Security:
+- Learned about Firewalls (like UFW), WPA2/WPA3 encryption, and secure settings.
+- Installed and configured UFW to allow SSH, HTTP, HTTPS and deny FTP.
+- Documented steps in `.txt`.
+
+🔸 Day 3 – Simulate Traffic:
+- Used `ping` to generate ICMP traffic.
+- Used Firefox to visit `http://testphp.vulnweb.com` for DNS/HTTP traffic.
+- Opened Wireshark, selected the correct interface, captured packets.
+- Filtered for `icmp`, `dns`, and `http`, took screenshots.
+
+🔸 Day 4 – Analyze Traffic:
+- Looked at captured packets:
+   - ICMP → IPs, echo requests/replies
+   - DNS → Domain name lookups
+   - HTTP → GET requests, responses
+- Wrote clear explanations and what I observed.
+
+🔸 Day 5 – Final Report:
+- Summarized all activities in a final `.txt` report.
+- Organized files into folders.
+- Ready to submit and upload to GitHub.
+
+--------------------------------------------------
+⚠️ Challenges Faced & How I Solved Them
+--------------------------------------------------
+
+1. **ICMP not showing in Wireshark**
+   - Fixed by selecting the correct network interface (eth0)
+   - Started Wireshark **before** running `ping`
+
+2. **Firefox showing proxy server error**
+   - Solved by disabling proxy in Firefox:
+     - Went to `about:preferences → Network → No Proxy`
+
+3. **Cannot check Wi-Fi encryption (WPA2/WPA3)**
+   - Documented that Kali in VirtualBox doesn’t detect wireless without a USB Wi-Fi adapter.
+
+4. **Understanding Linux commands as a beginner**
+   - Followed line-by-line instructions and practiced regularly
+
+--------------------------------------------------
+📈 Results & What I Learned
+--------------------------------------------------
+
+✔️ I now understand:
+- The types of threats a network can face
+- How a firewall can control traffic
+- How DNS, HTTP, and ICMP traffic looks in Wireshark
+- How to analyze packets using filters
+- How to follow structured steps to solve cybersecurity problems
+
+🧠 Gained practical experience in using:
+- Wireshark
+- UFW Firewall
+- Terminal commands (ping, nano, mv)
+- Linux file structure and documentation
+
+--------------------------------------------------
+📂 Final Folder Structure (for GitHub)
+--------------------------------------------------
+
+~/Redynox_CyberSecurity_Internship/Task1_NetworkSecurity/
+├── notes/
+│   ├── day1_network_threats.md
+│   ├── day2_basic_security_concepts.txt
+│   ├── day3_traffic_capture_report.txt
+│   ├── day4_traffic_analysis.txt
+│   ├── task1_final_completion_report.txt
+│   └── task1_brief_report.txt ← (this file)
+├── screenshots/
+│   ├── task1_icmp.png
+│   ├── task1_dns.png
+│   └── task1_http.png
+└── README.md
+
+--------------------------------------------------
+🏁 Final Status: ✅ Task 1 Completed Successfully
+--------------------------------------------------
+
+I have completed all the objectives, created documentation, and practiced core skills.  
+This report is ready to be submitted to Redynox for my Task 1 completion certificate.
+
+End of Report
